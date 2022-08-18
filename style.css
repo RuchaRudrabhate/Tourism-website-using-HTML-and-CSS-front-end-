@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+html{
+    font-size: 10px;
+    font-size: 100% = 16px;
+    font-size: 62.5%;
+    font-size: 10px;
+    font-size: 1rem;
+}
+nav{
+    /* font-family: 'Source Serif Pro', serif;  */
+   font-family: 'Redressed', cursive;  
+   /* font-family: 'Noto Serif', serif; */
+   /* font-family: 'Akaya Telivigala', cursive; */
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.7rem;
+   color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+    background-image: url("tour1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(0.5rem);
+    font-family: 'Open Sans', sans-serif;
+    /* background-blend-mode: soft-light; */
+
+    /* background: fixed; */
+}
+.c1{
+    margin-top: 5rem;
+    color:black;
+    text-align-last: center;
+    font-size: 7rem;
+}
+#two{
+    font-size: 2.7rem;
+    text-align: center;
+    margin-top: 1.0rem;
+    font-weight: bolder;
+    color: rgb(152, 55, 87);
+
+}
+nav ul
+{
+    display:flex;
+    background-color:rgba(150, 233, 233, 0.726);
+    color: black;
+    list-style-type:none;
+    padding: 2.0rem;
+    margin: 0rem;
+    align-items: center;
+    cursor: pointer;
+}
+li{
+    margin-left: 2.0rem;
+    font-weight: bolder;
+}
+.TT{
+    font-weight: bolder;
+    font-size:  2.4rem;
+    /* display: flex; */
+    cursor: auto;
+}
+
+#main{
+    display: flex;
+    margin-top: 5.0rem;
+    margin-left: 13.0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: blanchedalmond;
+    box-shadow: 1.0rem 1.0rem 1.0rem rgba(100, 74, 34, 0.715);
+    border-radius: 2.0rem;
+    min-height: 40rem;
+    width: 140rem;
+    align-items: center;
+}
+#first{
+    margin: 4.0rem;
+    padding: 4.0rem;
+    width: 40%;
+    text-align: center;
+    font-size: 2.0rem;
+    text-align: justify;
+}
+.c2{
+    font-size: 3.7rem;
+}
+#second{
+    margin-left: 2.0rem;
+    padding: 4.0rem;
+    width: 40%;
+    text-align: center;
+    font-size: 2.0rem;
+}
+.c3{
+    font-size: 3.7rem;
+    text-align: center;
+}
+.places{
+    margin-top: 4.0rem;
+    display: flex;
+    list-style-type: none;
+}
+.a{
+    height: 20.0rem;
+    width: 15.0rem;
+    border-radius: 1.0rem;
+}
+.b{
+    height: 20.0rem;
+    width: 15.0rem;
+    border-radius: 10px;
+}
+.c{
+    height: 20.0rem;
+    width: 15.0rem;
+    border-radius: 1.0rem;
+}
+.q{
+    text-align: end;
+    font-size: 2.0rem;
+    margin-top: 3.0rem;
+}
+#main2
+{
+    font-size: 3.7rem;
+    display: flex;
+    text-align: center;
+    width: 5cm;
+    padding-left: 2.0rem;
+    align-items: center;
+    background-color: rgba(182, 58, 248, 0.301);
+    margin-top: 2.0rem;
+    margin-left: 45%;
+    border-radius: 0.8rem;
+    text-align: end;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 1.0rem 1.0rem 1.0rem rgba(73, 33, 95, 0.623);
+}
+.booknow{
+    text-align: end;
+    color: black;
+    font-weight: bolder;
+}
+@media(max-width :998rem){
+    html{
+        font-size: 55%;
+    }
+}
+/* @media(max-width :880rem){
+    html{
+        font-size: 45%;
+    } */
+/* } */
